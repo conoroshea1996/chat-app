@@ -1,0 +1,45 @@
+/* General*/
+body {
+    background-image: linear-gradient(to left top, #17a2b8, #14abc4, #12b3d1, #1956da, #2134e2);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Heading*/
+  .main-heading{
+      font-size: 40px;
+      color:rgb(211, 198, 198);
+  }
+  .main-heading span{
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+  }
+  /*Login Form */
+  #login-form h3{
+      color: white;
+      text-transform: uppercase;
+  }
+  .info-text{
+      color: white;
+      font-weight: 600;
+  }
+  #login .container #login-row #login-column .login-box {
+    margin-top: 50px;
+    max-width: 600px;
+    height:300px;
+    border: 1px solid #9C9C9C;
+    border-radius: 24px;
+    background-image: linear-gradient(to bottom, #aec1c3, #a9b5b7, #bcc5c6, #cfd5d5, #e3e5e5);
+  }
+  #login .container #login-row #login-column .login-box #login-form {
+    padding: 20px;
+  }
+
+/* Submit Button*/
+#submit-btn{
+    width:100%;
+    text-align: center;
+    margin:auto;
+}
